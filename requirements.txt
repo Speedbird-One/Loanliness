@@ -1,0 +1,14 @@
+pyarrow
+scikit-learn
+lightgbm
+imbalanced-learn
+matplotlib
+seaborn
+shap
+optuna
+joblib
+tqdm
+streamlit
+jupyter
+ipykernel
+kaggle

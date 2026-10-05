@@ -1,0 +1,12 @@
+# environments and caches
+.venv/
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+# raw and processed data (re-created by the pipeline; see README)
+data/
+
+# credentials: never commit
+kaggle.json
+.env
