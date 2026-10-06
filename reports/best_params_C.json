@@ -1,0 +1,17 @@
+{
+  "num_leaves": 18,
+  "learning_rate": 0.03798363534401218,
+  "min_child_samples": 28,
+  "subsample": 0.7301321323053057,
+  "colsample_bytree": 0.43320637381368926,
+  "reg_alpha": 0.01217295809836997,
+  "reg_lambda": 2.0651425578959257,
+  "n_trees": 1030,
+  "val_auc_baseline": 0.7146218342139832,
+  "val_auc_tuned": 0.7181823432700106,
+  "test": {
+    "roc_auc": 0.72032269325086,
+    "pr_auc": 0.19664824510926152,
+    "recall_top20pct": 0.4602215508559919
+  }
+}
