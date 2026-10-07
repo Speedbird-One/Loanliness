@@ -12,6 +12,13 @@ Run from the repo root:
 Fields not asked for (region, documents, external scores...) are passed to
 the model as missing, exactly as in the app.
 """
+
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+
+# Suppress minor scikit-learn version mismatch warnings
+warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
+
 import argparse
 import sys
 
