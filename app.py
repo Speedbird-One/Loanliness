@@ -3,6 +3,13 @@
 Needs only files that are committed to the repo: models/lgbm_{B,C}[_compliant].joblib
 and demo_data/ (see src.export_demo). No dataset or training required.
 """
+
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+
+# Suppress minor scikit-learn version mismatch warnings
+warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
+
 import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
